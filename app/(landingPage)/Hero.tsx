@@ -5,7 +5,7 @@ import { ArrowRight, Star, TrendingUp } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-export function Hero() {
+const Hero = () => {
   const [tasksCount, setTasksCount] = useState(0);
 
   // Animated counter
@@ -154,4 +154,6 @@ export function Hero() {
       </div>
     </section>
   );
-}
+};
+
+export default Hero;
