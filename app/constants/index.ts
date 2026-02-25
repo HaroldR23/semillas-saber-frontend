@@ -18,6 +18,9 @@ import {
   BookMarked,
   Coins,
   Scale,
+  Send,
+  CheckCircle,
+  GraduationCap,
 } from 'lucide-react';
 import { Category } from "../models";
 
@@ -112,5 +115,34 @@ export const subjectCategories: Category[] = [
       { name: 'Economía', icon: Coins },
       { name: 'Política', icon: Scale },
     ],
+  },
+];
+export const steps = [
+  {
+    number: '01',
+    title: 'Envía tu tarea',
+    description:
+      'Comparte los detalles de tu tarea, proyecto o tema de estudio. Incluye instrucciones y fecha límite.',
+    icon: Send,
+    color: 'from-blue-500 to-blue-600',
+    bgColor: 'bg-blue-50',
+  },
+  {
+    number: '02',
+    title: 'Recíbela resuelta y explicada',
+    description:
+      'Nuestros expertos trabajan en tu tarea y te la entregan con explicaciones claras paso a paso.',
+    icon: CheckCircle,
+    color: 'from-emerald-500 to-emerald-600',
+    bgColor: 'bg-emerald-50',
+  },
+  {
+    number: '03',
+    title: 'Aprende y mejora',
+    description:
+      'Revisa las explicaciones, entiende el proceso y mejora tus calificaciones con confianza.',
+    icon: GraduationCap,
+    color: 'from-amber-500 to-amber-600',
+    bgColor: 'bg-amber-50',
   },
 ];
