@@ -1,3 +1,4 @@
+import Benefits from "./components/Benefits";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import Services from "./components/Services";
@@ -10,6 +11,7 @@ const Home = () => {
       <SubjectsSection />
       <HowItWorks />
       <Services />
+      <Benefits />
     </div>
   );
 };

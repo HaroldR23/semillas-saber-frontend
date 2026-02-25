@@ -26,6 +26,9 @@ import {
   BookCheck,
   FileEdit,
   Sparkles,
+  Zap,
+  TrendingUp,
+  Clock,
 } from 'lucide-react';
 import { Category } from "../models";
 
@@ -199,5 +202,31 @@ export const services = [
       'Orientación personalizada para mejorar tu rendimiento académico y técnicas de estudio.',
     color: 'text-indigo-600',
     bgColor: 'bg-indigo-50',
+  },
+];
+export const benefits = [
+  {
+    icon: Zap,
+    title: 'Entregas Rápidas',
+    description: 'Respuestas en 24-48 horas para que nunca pierdas una fecha límite.',
+    gradient: 'from-blue-500 to-blue-600',
+  },
+  {
+    icon: Heart,
+    title: 'Fácil de Entender',
+    description: 'Explicaciones claras y sencillas adaptadas a tu nivel de conocimiento.',
+    gradient: 'from-emerald-500 to-emerald-600',
+  },
+  {
+    icon: TrendingUp,
+    title: 'Mejora tu Rendimiento',
+    description: 'Aprende técnicas y conceptos que elevarán tus calificaciones.',
+    gradient: 'from-amber-500 to-amber-600',
+  },
+  {
+    icon: Clock,
+    title: 'Ahorra Tiempo',
+    description: 'Optimiza tu tiempo de estudio y reduce el estrés académico.',
+    gradient: 'from-purple-500 to-purple-600',
   },
 ];
