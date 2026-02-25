@@ -21,6 +21,11 @@ import {
   Send,
   CheckCircle,
   GraduationCap,
+  FileCheck,
+  Video,
+  BookCheck,
+  FileEdit,
+  Sparkles,
 } from 'lucide-react';
 import { Category } from "../models";
 
@@ -144,5 +149,55 @@ export const steps = [
     icon: GraduationCap,
     color: 'from-amber-500 to-amber-600',
     bgColor: 'bg-amber-50',
+  },
+];
+export const services = [
+  {
+    icon: FileCheck,
+    title: 'Resolución de Tareas',
+    description:
+      'Resolvemos tus tareas con explicaciones detalladas para que entiendas cada paso del proceso.',
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50',
+  },
+  {
+    icon: Video,
+    title: 'Clases Particulares Online',
+    description:
+      'Sesiones personalizadas en vivo para reforzar temas específicos y aclarar todas tus dudas.',
+    color: 'text-emerald-600',
+    bgColor: 'bg-emerald-50',
+  },
+  {
+    icon: BookCheck,
+    title: 'Preparación para Exámenes',
+    description:
+      'Te ayudamos a prepararte con material de estudio, ejercicios prácticos y simulacros.',
+    color: 'text-amber-600',
+    bgColor: 'bg-amber-50',
+  },
+  {
+    icon: MessageCircle,
+    title: 'Explicaciones Paso a Paso',
+    description:
+      'Cada solución incluye explicaciones claras y fáciles de entender para que realmente aprendas.',
+    color: 'text-purple-600',
+    bgColor: 'bg-purple-50',
+  },
+  {
+    icon: FileEdit,
+    title: 'Corrección de Trabajos',
+    description:
+      'Revisamos y corregimos tus ensayos, informes y proyectos antes de entregarlos.',
+    color: 'text-pink-600',
+    bgColor: 'bg-pink-50',
+  },
+  {
+    icon: Sparkles,
+    title: 'Asesoría Académica',
+    description:
+      'Orientación personalizada para mejorar tu rendimiento académico y técnicas de estudio.',
+    color: 'text-indigo-600',
+    bgColor: 'bg-indigo-50',
   },
 ];
