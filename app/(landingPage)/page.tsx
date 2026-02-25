@@ -1,6 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import Benefits from "./components/Benefits";
+import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import Pricing from "./components/Pricing";
@@ -8,6 +10,7 @@ import Services from "./components/Services";
 import SubjectsSection from "./components/SubjectsSection/SubjectsSection";
 
 const Home = () => {
+  const [selectedPlan, setSelectedPlan] = useState<string | null>(null);
   return (
     <div>
       <Hero />
@@ -15,7 +18,8 @@ const Home = () => {
       <HowItWorks />
       <Services />
       <Benefits />
-      <Pricing onSelectPlan={(plan) => console.log(`Selected plan: ${plan}`)} />
+      <Pricing onSelectPlan={(plan) => setSelectedPlan(plan)} />
+      <Contact selectedPlan={selectedPlan} onClearPlan={() => setSelectedPlan(null)} />
     </div>
   );
 };

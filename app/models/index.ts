@@ -14,3 +14,7 @@ export interface Category {
   tagline: string;
   subjects: SubSubject[];
 }
+export interface ContactProps {
+  selectedPlan?: string | null;
+  onClearPlan?: () => void;
+}
