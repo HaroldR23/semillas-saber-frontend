@@ -29,6 +29,8 @@ import {
   Zap,
   TrendingUp,
   Clock,
+  Crown,
+  Check,
 } from 'lucide-react';
 import { Category } from "../models";
 
@@ -228,5 +230,73 @@ export const benefits = [
     title: 'Ahorra Tiempo',
     description: 'Optimiza tu tiempo de estudio y reduce el estrés académico.',
     gradient: 'from-purple-500 to-purple-600',
+  },
+];
+
+export const plans = [
+  {
+    name: 'Clase individual primaria',
+    icon: Check,
+    price: '$25.000',
+    description: 'Ideal para tareas o consultas específicas',
+    features: [
+      'Resolución de una tarea',
+      'Explicación paso a paso',
+      'Entrega en 24-48 horas',
+      'Soporte por chat',
+      'Garantía de calidad',
+    ],
+    gradient: 'from-blue-500 to-blue-600',
+    ring: 'ring-blue-500',
+    badge: undefined as string | undefined,
+  },
+  {
+    name: 'Clase individual bachillerato',
+    icon: Check,
+    price: '$30.000',
+    description: 'Lo más popular para estudiantes activos',
+    features: [
+      '10 tareas al mes',
+      'Prioridad en entregas',
+      '2 clases particulares',
+      'Acceso a materiales premium',
+      'Soporte prioritario 24/7',
+      'Descuento en clases extras',
+    ],
+    gradient: 'from-emerald-500 to-emerald-600',
+    ring: 'ring-emerald-500',
+    badge: 'Más Popular',
+  },
+  {
+    name: 'Plan mensual primaria',
+    icon: Zap,
+    price: '$180.000',
+    description: 'Perfecto para preparación intensiva',
+    features: [
+      '8 clases de 1 hora',
+      'Horario flexible',
+      'Material de estudio incluido',
+      'Grabación de sesiones',
+      'Seguimiento personalizado',
+    ],
+    gradient: 'from-amber-500 to-amber-600',
+    ring: 'ring-amber-500',
+    badge: undefined as string | undefined,
+  },
+  {
+    name: 'Plan mensual bachillerato',
+    icon: Crown,
+    price: '$200.000',
+    description: 'Perfecto para preparación intensiva',
+    features: [
+      '8 clases de 1 hora',
+      'Horario flexible',
+      'Material de estudio incluido',
+      'Grabación de sesiones',
+      'Seguimiento personalizado',
+    ],
+    gradient: 'from-purple-500 to-violet-600',
+    ring: 'ring-purple-500',
+    badge: undefined as string | undefined,
   },
 ];
