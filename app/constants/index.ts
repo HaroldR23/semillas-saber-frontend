@@ -300,3 +300,5 @@ export const plans = [
     badge: undefined as string | undefined,
   },
 ];
+export const whatsappUrl = 'https://wa.me/573124184842';
+export const helpMessage = "Hola, necesito ayuda con mis tareas.";
