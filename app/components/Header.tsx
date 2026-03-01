@@ -23,7 +23,9 @@ const Header = () => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      setIsMobileMenuOpen(false);
+      setTimeout(() => {
+        return setIsMobileMenuOpen(false);
+      }, 300);
     }
   };
 

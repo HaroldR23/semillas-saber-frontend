@@ -3,6 +3,7 @@ import { Send, Tag } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 
 import { ContactProps } from '@/app/models';
+import { whatsappUrl } from '@/app/constants';
 
 const Contact = ({ selectedPlan, onClearPlan }: ContactProps) => {
   const initialFormData = {
@@ -38,8 +39,8 @@ const Contact = ({ selectedPlan, onClearPlan }: ContactProps) => {
     e.preventDefault();
     
     const encodedMessage = encodeWhatsAppMessage(formData);
-    const whatsappUrl = `https://wa.me/573124184842?text=${encodedMessage}`;
-    window.open(whatsappUrl, '_blank');
+    const whatsappUrlWithMessage = `${whatsappUrl}?text=${encodedMessage}`;
+    window.open(whatsappUrlWithMessage, '_blank');
     
     setFormData(initialFormData);
     onClearPlan?.();
