@@ -36,7 +36,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bg-linear-to-br from-blue-50 via-emerald-50 to-amber-50">
+    <section id="hero" className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bg-linear-to-br from-blue-50 via-emerald-50 to-amber-50">
       {/* Decorative elements */}
       <div className="absolute top-20 right-10 w-72 h-72 bg-[#2563eb]/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-10 left-10 w-96 h-96 bg-[#10b981]/10 rounded-full blur-3xl"></div>
