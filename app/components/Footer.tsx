@@ -20,8 +20,8 @@ const Footer = () => {
           <div>
             <Logo />
             <p className="text-gray-400 leading-relaxed mb-6">
-              Ayuda académica rápida y confiable para estudiantes de secundaria y
-              universidad.
+              Ayuda académica rápida y confiable para estudiantes de primaria y
+              secundaria.
             </p>
             <div className="flex gap-4 items-center">
               <a
@@ -87,10 +87,10 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <Mail className="text-[#2563eb] shrink-0 mt-1" size={20} />
                 <a
-                  href="mailto:ayuda@semillasdelsaber.com"
+                  href="mailto:rianopovedar@gmail.com"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  ayuda@semillasdelsaber.com
+                  rianopovedar@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">

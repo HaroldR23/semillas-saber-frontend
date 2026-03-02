@@ -73,8 +73,8 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-              Ayuda académica rápida y confiable para estudiantes de secundaria y
-              universidad. Resuelve tus tareas y aprende en el proceso.
+              Ayuda académica rápida y confiable para estudiantes de primaria y
+              secundaria. Resuelve tus tareas y aprende en el proceso.
             </p>
 
             {/* CTA Buttons */}
@@ -144,8 +144,8 @@ const Hero = () => {
                   <Star className="text-green-600" size={20} fill="#16a34a" />
                 </div>
                 <div>
-                  <div className="font-bold text-gray-900">Entrega rápida</div>
-                  <div className="text-sm text-gray-600">24-48 horas</div>
+                  <div className="font-bold text-gray-900">Entrega oportuna</div>
+                  {/* <div className="text-sm text-gray-600">24-48 horas</div> */}
                 </div>
               </div>
             </motion.div>

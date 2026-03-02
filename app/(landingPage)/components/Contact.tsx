@@ -9,6 +9,7 @@ const Contact = ({ selectedPlan, onClearPlan }: ContactProps) => {
   const initialFormData = {
     name: '',
     email: '',
+    guardianName: '',
     subject: '',
     message: '',
   };
@@ -31,7 +32,7 @@ const Contact = ({ selectedPlan, onClearPlan }: ContactProps) => {
   }, [selectedPlan]);
 
   const encodeWhatsAppMessage = (data: typeof initialFormData): string => {
-    const message = `*Nueva Solicitud de Ayuda*\n\n*Nombre:* ${data.name}\n*Email:* ${data.email}\n*Asunto:* ${data.subject}\n*Mensaje:*\n${data.message}`;
+    const message = `*Nueva Solicitud de Ayuda*\n\n*Nombre:* ${data.name}\n*Email:* ${data.email}\n*Acudiente:* ${data.guardianName}\n*Asunto:* ${data.subject}\n*Mensaje:*\n${data.message}`;
     return encodeURIComponent(message);
   };
 
@@ -104,7 +105,7 @@ const Contact = ({ selectedPlan, onClearPlan }: ContactProps) => {
 
               <div>
                 <label htmlFor="name" className="block text-gray-700 mb-2">
-                  Nombre Completo
+                  Nombre del Estudiante
                 </label>
                 <input
                   type="text"
@@ -128,6 +129,21 @@ const Contact = ({ selectedPlan, onClearPlan }: ContactProps) => {
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#2563eb] transition-all"
                   placeholder="tu@email.com"
+                  required
+                />
+              </div>
+
+              <div>
+                <label htmlFor="guardianName" className="block text-gray-700 mb-2">
+                  Nombre del Acudiente
+                </label>
+                <input
+                  type="text"
+                  id="guardianName"
+                  value={formData.guardianName}
+                  onChange={(e) => setFormData({ ...formData, guardianName: e.target.value })}
+                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#2563eb] transition-all"
+                  placeholder="Nombre del acudiente"
                   required
                 />
               </div>

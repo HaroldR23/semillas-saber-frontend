@@ -8,12 +8,14 @@ import HowItWorks from "./components/HowItWorks";
 import Pricing from "./components/Pricing";
 import Services from "./components/Services";
 import SubjectsSection from "./components/SubjectsSection/SubjectsSection";
+import AboutUs from "./components/AboutUst";
 
 const Home = () => {
   const [selectedPlan, setSelectedPlan] = useState<string | null>(null);
   return (
     <div>
       <Hero />
+      <AboutUs />
       <SubjectsSection />
       <HowItWorks />
       <Services />

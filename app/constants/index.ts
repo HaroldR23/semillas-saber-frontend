@@ -35,6 +35,7 @@ import {
 import { Category } from "../models";
 
 export const menuItems = [
+  { label: 'Nosotros', id: 'nosotros' },
   { label: 'Materias', id: 'materias' },
   { label: 'Servicios', id: 'servicios' },
   { label: 'Precios', id: 'precios' },
@@ -209,8 +210,8 @@ export const services = [
 export const benefits = [
   {
     icon: Zap,
-    title: 'Entregas Rápidas',
-    description: 'Respuestas en 24-48 horas para que nunca pierdas una fecha límite.',
+    title: 'Entregas Oportunas',
+    description: 'Respuestas oportunas para que nunca pierdas una fecha límite.',
     gradient: 'from-blue-500 to-blue-600',
   },
   {
@@ -242,8 +243,6 @@ export const plans = [
     features: [
       'Resolución de una tarea',
       'Explicación paso a paso',
-      'Entrega en 24-48 horas',
-      'Soporte por chat',
       'Garantía de calidad',
     ],
     gradient: 'from-blue-500 to-blue-600',
@@ -256,11 +255,8 @@ export const plans = [
     price: '$30.000',
     description: 'Lo más popular para estudiantes activos',
     features: [
-      '10 tareas al mes',
       'Prioridad en entregas',
       '2 clases particulares',
-      'Acceso a materiales premium',
-      'Soporte prioritario 24/7',
       'Descuento en clases extras',
     ],
     gradient: 'from-emerald-500 to-emerald-600',
