@@ -35,6 +35,7 @@ import {
 import { Category } from "../models";
 
 export const menuItems = [
+  { label: 'Nosotros', id: 'nosotros' },
   { label: 'Materias', id: 'materias' },
   { label: 'Servicios', id: 'servicios' },
   { label: 'Precios', id: 'precios' },
