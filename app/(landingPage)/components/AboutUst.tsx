@@ -4,7 +4,6 @@ import {
   Sprout,
   Target,
   Eye,
-  GraduationCap,
   Heart,
   Users,
   Award,
@@ -85,7 +84,7 @@ const AboutUs = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-1">
-                    Semillas del Saber
+                    Semillas de Aprendizaje
                   </h3>
                   <span className="text-sm font-semibold text-[#10b981] tracking-wide uppercase">
                     Emprendimiento Educativo Virtual
@@ -239,7 +238,7 @@ const AboutUs = () => {
               <div className="relative bg-linear-to-br from-[#2563eb] to-[#10b981] p-6 md:p-8 flex flex-col items-center justify-center text-center">
                 <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white/30 shadow-xl mb-5">
                   <Image
-                    src="https://images.unsplash.com/photo-1758685848001-0396a85ba84f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBlZHVjYXRpb24lMjBkaXJlY3RvciUyMHByb2Zlc3Npb25hbCUyMHBvcnRyYWl0fGVufDF8fHx8MTc3MjQ2NjM5Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                    src="/bbfdd9a1-aa3e-41ce-a84f-f10a90f075e8.jpg"
                     alt="Rosalba Riaño Poveda"
                     width={192}
                     height={192}
@@ -248,11 +247,7 @@ const AboutUs = () => {
                   />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-1">Rosalba Riaño Poveda</h3>
-                <span className="text-white/80 text-sm font-medium mb-3">Directora</span>
-                <div className="flex items-center gap-1.5 bg-white/20 backdrop-blur-sm px-4 py-1.5 rounded-full">
-                  <GraduationCap size={15} className="text-[#fbbf24]" />
-                  <span className="text-white text-xs font-medium">Lic. Educación Básica</span>
-                </div>
+                <span className="text-white/80 text-sm font-medium mb-3">Directora / Coordinadora académica</span>
               </div>
 
               {/* Info side */}
