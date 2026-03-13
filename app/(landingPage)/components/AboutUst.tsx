@@ -238,7 +238,7 @@ const AboutUs = () => {
               <div className="relative bg-linear-to-br from-[#2563eb] to-[#10b981] p-6 md:p-8 flex flex-col items-center justify-center text-center">
                 <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white/30 shadow-xl mb-5">
                   <Image
-                    src="/bbfdd9a1-aa3e-41ce-a84f-f10a90f075e8.jpg"
+                    src="/rosalba_photo.jpg"
                     alt="Rosalba Riaño Poveda"
                     width={192}
                     height={192}
