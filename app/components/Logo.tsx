@@ -8,7 +8,7 @@ const Logo = () => {
       >
         <img
           src="/logo_semillas_saber.png"
-          alt="Semillas del Saber"
+          alt="Semillas de Aprendizaje"
           style={{ width: 100, height: 100  }}
         />
       </div>
@@ -21,7 +21,7 @@ const Logo = () => {
         <span
           className={`text-xl font-medium text-gray-500 tracking-wide -mt-0.5`}
         >
-          del Saber
+          de Aprendizaje
         </span>
       </div>
     </div>

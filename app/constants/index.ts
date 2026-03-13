@@ -42,7 +42,7 @@ export const menuItems = [
   { label: 'Precios', id: 'precios' },
   { label: 'Contacto', id: 'contacto' },
 ];
-export const waMessage = "https://wa.me/573124184842?text=Hola%20Semillas%20del%20Saber%2C%20necesito%20ayuda%20con%20mis%20tareas.";
+export const waMessage = "https://wa.me/573124184842?text=Hola%20Semillas%20de%20Aprendizaje%2C%20necesito%20ayuda%20con%20mis%20tareas.";
 export const subjectCategories: Category[] = [
   {
     id: 'logico',
@@ -206,6 +206,14 @@ export const services = [
       'Orientación personalizada para mejorar tu rendimiento académico y técnicas de estudio.',
     color: 'text-indigo-600',
     bgColor: 'bg-indigo-50',
+  },
+  {
+    icon: Heart,
+    title: 'Psicoorientación Escolar',
+    description:
+      'Apoyo profesional para el bienestar emocional, orientación vocacional y resolución de conflictos escolares.',
+    color: 'text-red-600',
+    bgColor: 'bg-red-50',
   },
 ];
 export const benefits = [

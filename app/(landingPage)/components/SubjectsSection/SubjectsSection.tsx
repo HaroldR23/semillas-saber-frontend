@@ -30,7 +30,7 @@ const SubjectsSection = () => {
             Explora nuestras materias
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Organizadas por campos del saber para que encuentres exactamente lo que necesitas
+            Organizadas por campos de Aprendizaje para que encuentres exactamente lo que necesitas
           </p>
         </motion.div>
 
