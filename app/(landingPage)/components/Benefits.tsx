@@ -24,7 +24,7 @@ const Benefits = () => {
             Beneficios para Estudiantes
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Descubre por qué miles de estudiantes confían en StudyBoost
+            Descubre por qué miles de estudiantes confían en Semillas de Aprendizaje
           </p>
         </motion.div>
 
